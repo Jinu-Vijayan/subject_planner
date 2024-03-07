@@ -1,0 +1,32 @@
+#container{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-form{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+#input-form input {
+    padding: 0.4rem;
+}
+
+#input-form button{
+    padding:0.4rem 1rem ;
+    background-color: #2727cc;
+    border: none;
+    border-radius: 0.625rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#subject-cards{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
